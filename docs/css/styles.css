@@ -1,60 +1,79 @@
-*{
+/* Reset */
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Base */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f7f7fb;
-    color: #1f9237;
+    background: #f5f5f5;
+    color: #111;
     line-height: 1.6;
 }
 
-.site-header {
-    background: #f97316; 
-    color: #ffffff;
-    padding: 24px 20px;
+/* Header */
+header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 48px 20px;
 }
 
-.tagline {
-    margin: 6px 0 0;
-    opacity: 0.8;
+header p {
+    margin-top: 8px;
+    color: #ccc;
 }
 
+/* Main Layout */
 main {
     max-width: 900px;
-    margin: 24px auto;
-    padding: 0 20px 24px;
+    margin: 40px auto;
+    padding: 0 20px 40px;
 }
 
+/* Cards */
 .card {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 16px 10px;
-    margin-bottom: 16px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-button {
-    background: #1a73e8;
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 16px;
-    cursor: pointer;
+/* Typography */
+h1 {
+    font-size: 36px;
+    font-weight: 600;
 }
 
-button:hover {
-    background: #1558b3;
-
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
-.site-footer {
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
     text-align: center;
-    padding: 16px;
-    color: #6b7280;
-}
-
-h1, h2, p, li {
-    color: #000000;
+    padding: 24px;
+    color: #777;
+    font-size: 14px;
 }

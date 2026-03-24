@@ -1,16 +1,47 @@
-# Career-Engineered Portfolio — Aarav Chopra
+# Museum Project — The Evolution of Web Design
 
 ## Live Site
-https://ac2928.github.io/is117first/
+https://ac2928.github.io/is117firstnew/
+
 
 ## Project Overview
-This project is a professional portfolio website created to present my skills and projects as an NJIT student seeking frontend internship or entry-level tech roles.
-
-## Orchestration Log
-During development, the AI initially generated an unnecessary `src` and `dist` project structure. I recognized that this did not align with the course requirement to use GitHub Pages with a `/docs` directory, so I removed the extra folders and kept `/docs` as the single source of truth for the website.
+This project is a digital museum exhibit exploring the evolution of web design. The goal is to present how web design has changed over time in a structured, educational, and visually clear format.
 
 
-Reflection
+## Concept
+
+The Evolution of Web Design
+
+
+## Design Framework
+
+**Design Style:**  
+Swiss — clean, grid-based layout with minimal styling
+
+**Cialdini Principle:**  
+Authority — use of credible sources and real examples
+
+**Brand Archetype:**  
+Sage — educational and informative tone
+
+
+## AI Workflow Process
+
+This project followed a spec-driven development process:
+
+- Defined the concept and constraints first  
+- Built the site in structured steps  
+- Used AI to review and improve the design  
+- Applied feedback to refine layout and clarity  
+
+AI was used to:
+
+- Analyze a reference project  
+- Suggest improvements  
+- Review the site as a museum exhibit  
+
+
+## Reflection
 
 This project helped me understand the difference between building something quickly and building something through a structured process. Instead of immediately trying to improve the design or add features, I clarified the goal, constraints, and definition of done before making changes. This forced me to think more carefully about what I was building and why.
 
