@@ -1,7 +1,7 @@
 # Museum Project — The Evolution of Web Design
 
 ## Live Site
-https://ac2928.github.io/is117firstnew/
+https://ac2928.github.io/is117-museum-project/
 
 
 ## Project Overview
