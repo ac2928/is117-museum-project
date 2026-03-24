@@ -51,5 +51,7 @@ Breaking the project into small sprints made it more manageable and measurable. 
 
 Overall, this assignment taught me that planning and discipline lead to stronger execution. Clear specifications and incremental progress produce better results than unstructured experimentation.
 
-AI Curator Review Summary
+
+## AI Curator Review Summary
+
 The site was reviewed using AI acting as a Smithsonian curator. The feedback identified strengths in structure and clarity, but also highlighted areas for improvement, including the need for a stronger central thesis, better narrative flow, and deeper content layering. Based on this, improvements were made to layout, structure, and clarity.
