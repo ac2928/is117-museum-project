@@ -1,79 +1,135 @@
-/* Reset */
+/* RESET */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Base */
+/* BODY */
 body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #111;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-/* Header */
-header {
-    background: #111;
-    color: #fff;
-    text-align: center;
-    padding: 48px 20px;
+/* NAVBAR */
+.nav {
+  background: #000;
+  color: #fff;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
 }
 
-header p {
-    margin-top: 8px;
-    color: #ccc;
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* Main Layout */
-main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px 40px;
+.logo {
+  font-weight: bold;
 }
 
-/* Cards */
-.card {
-    background: #fff;
-    padding: 24px;
-    margin-bottom: 24px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
 }
 
-/* Typography */
-h1 {
-    font-size: 36px;
-    font-weight: 600;
+/* HERO (ADJUSTED) */
+.hero {
+  text-align: center;
+  padding: 75px 20px; /* reduced from 90 */
+  background: #000;
+  color: #fff;
 }
 
+.hero h1 {
+  font-size: 2.4rem; /* reduced */
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* SECTIONS */
+.section {
+  padding: 35px 20px; /* reduced */
+}
+
+.section.light {
+  background: #f9f9f9;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADINGS */
 h2 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 8px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-p {
-    font-size: 16px;
-    color: #444;
+/* SPLIT LAYOUT */
+.split {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* Links */
-a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: 500;
+.split.reverse {
+  flex-direction: row-reverse;
 }
 
-a:hover {
-    text-decoration: underline;
+.text {
+  flex: 1;
 }
 
-/* Footer */
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
 footer {
-    text-align: center;
-    padding: 24px;
-    color: #777;
-    font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Default (on hero - black background) */
+.nav {
+  background: transparent;
+  color: white;
+  position: fixed;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.links a {
+  color: white;
+}
+
+/* When scrolled */
+.nav.scrolled {
+  background: white;
+  color: black;
+}
+
+.nav.scrolled .links a {
+  color: black;
 }
