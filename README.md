@@ -7,6 +7,9 @@ https://ac2928.github.io/is117-museum-project/
 ## Project Overview
 This project is a digital museum exhibit exploring the evolution of web design. The goal is to present how web design has changed over time in a structured, educational, and visually clear format.
 
+- Scroll-based navigation bar that changes color based on background
+- Additional sections (Future + Why It Matters) added to strengthen narrative flow
+
 
 ## Concept
 

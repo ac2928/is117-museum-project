@@ -9,19 +9,19 @@ Pages
 - Single-page site (index.html)
 
 
-Sections (No New Sections Allowed)
+Sections
 
 1. Hero
-
 2. About
+3. Early Web (1990s)
+4. Web 2.0 (2000s)
+5. Modern Web (2010s–Present)
+6. Future of Web Design
+7. Why It Matters
+8. Footer
 
-3. Links
+The project evolved beyond the initial constraint to better support the museum narrative and improve content clarity.
 
-4. Interactive Demo
-
-5. Footer
-
-No additional sections may be added.
 
 Design Rules (Swiss Minimal)
 

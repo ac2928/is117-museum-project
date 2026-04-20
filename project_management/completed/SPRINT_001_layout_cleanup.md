@@ -62,3 +62,8 @@ Completion Evidence
 - Deployed URL: https://yourusername.github.io/is117first/
 
 - Verified: layout loads, button works, links functional
+
+## Final Adjustments
+- Adjusted hero sizing and spacing
+- Implemented scroll-based navbar color change
+- Expanded content with additional sections for stronger narrative flow
