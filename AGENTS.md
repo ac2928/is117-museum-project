@@ -1,27 +1,45 @@
-# AGENTS.md — Master Implementation Letter
+# AGENTS.md — Museum Project
 
-# The Mandate
-The goal of this website is to present Aarav Chopra as an NJIT student seeking frontend internship or entry-level tech roles. The site should clearly communicate skills, projects, and availability to recruiters and hiring managers within five seconds of landing on the page.
+## The Mandate
+The goal of this website is to create a digital museum experience that educates visitors about the evolution of web design.
 
-# The Tech Stack
-- HTML (beginner)
-- CSS (beginner)
-- JavaScript (beginner)
+The site should guide users through a structured narrative showing how web design developed from technical limitations into a user-centered discipline.
 
-This stack was chosen to keep the site lightweight, easy to deploy, and aligned with the student’s current skill level. Heavier frameworks were intentionally avoided to prioritize speed and clarity.
+---
 
-# The Target Audience
-Recruiters and hiring managers reviewing candidates for internships or entry-level frontend or web development roles.
+## The Tech Stack
+- HTML
+- CSS
+- JavaScript (basic)
 
-# The Sitemap
-- Hero Section: Name, role, one-line pitch, and availability (Summer 2026)
-- About Section: Brief background and current skills
-- Projects Section: Class and learning projects with short descriptions
-- Call To Action: Button linking to GitHub profile or resume
-- Contact/Footer: Location (NJ/NYC) and GitHub link
+This stack was chosen to keep the project lightweight, simple, and focused on structure and design clarity.
 
-# Non-Negotiables
-- Mobile-responsive layout
-- Clear, professional language
-- SEO keywords relevant to NJIT, New Jersey, and New York
-- A strong Call To Action such as “View My GitHub Projects”
+---
+
+## The Target Audience
+Students, beginners in web development, and general users interested in understanding how web design has evolved.
+
+---
+
+## The Experience Goal
+The site should feel like a guided exhibit:
+- Clear structure
+- Logical progression
+- Easy to navigate
+- Educational tone
+
+---
+
+## Design Framework
+- Style: Swiss Minimal
+- Archetype: Sage
+- Cialdini Principle: Authority
+
+---
+
+## Non-Negotiables
+- Single-page structure
+- Clean layout and spacing
+- Clear narrative flow
+- No unnecessary visual clutter
+- Must feel intentional and curated
