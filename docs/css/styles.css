@@ -133,3 +133,22 @@ footer {
 .nav.scrolled .links a {
   color: black;
 }
+
+.section {
+  padding: 35px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.image img {
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(1.03);
+}
+
+.transition {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
