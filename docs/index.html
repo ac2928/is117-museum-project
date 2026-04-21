@@ -25,7 +25,7 @@
 <!-- HERO -->
 <section class="hero">
   <h1>The Evolution of Web Design</h1>
-  <p>A digital museum exploring how websites changed over time</p>
+  <p>A guided digital exhibit exploring how websites transformed from technical tools into human-centered experiences.</p>
 </section>
 
 <!-- ABOUT -->
@@ -33,16 +33,16 @@
   <div class="content">
     <h2>About This Exhibit</h2>
 
-    <p class="thesis">
-      This exhibit argues that web design evolved from technical limitation to user-centered experience, shaping how people interact with information today.
+    <p>
+      This exhibit explores how web design evolved from strict technical limitation into a discipline centered on human experience.
     </p>
 
     <p>
-      Early websites were built only to function. Over time, improvements in technology allowed designers to focus on usability, aesthetics, and experience.
+      In the early days, websites were built simply to function. Over time, advances in technology allowed designers to focus not only on usability, but on clarity, interaction, and visual communication.
     </p>
 
     <p>
-      This exhibit traces that transformation and shows how design decisions were shaped by both limitations and innovation.
+      As you move through this exhibit, you will follow a structured journey that traces how design decisions were shaped by both constraint and innovation.
     </p>
   </div>
 </section>
@@ -51,18 +51,18 @@
 <section id="early" class="section">
   <div class="split">
     <div class="text">
-      <h2>Early Web Design (1990s)</h2>
+      <h2>Exhibit I — Early Web Design (1990s)</h2>
 
       <p>
-        Early websites were extremely limited in design and functionality. Built using basic HTML, they relied heavily on text and simple hyperlinks.
+        The earliest websites were built in an environment defined by limitation. Designers worked with basic HTML, slow internet speeds, and minimal tools.
       </p>
 
       <p>
-        Layouts were often created using tables, not for design—but because there were no better tools available.
+        As a result, most websites prioritized function over form. Layouts were often constructed using tables, and visual design was secondary to simply making information accessible.
       </p>
 
       <p>
-        This shows that early web design was constrained by technology, not creativity. Designers were solving technical problems, not crafting user experiences.
+        This period reveals a key truth: early web design was driven by what was technically possible, not what was visually ideal.
       </p>
 
       <p class="transition">
@@ -82,18 +82,18 @@
 <section id="web2" class="section light">
   <div class="split reverse">
     <div class="text">
-      <h2>Web 2.0 Era (2000s)</h2>
+      <h2>Exhibit II — Web 2.0 Era (2000s)</h2>
 
       <p>
-        The Web 2.0 era introduced a major shift in how websites were built and experienced. Faster internet speeds allowed for richer media, interactive elements, and dynamic content.
+        The Web 2.0 era marked a turning point in how websites were experienced. Faster internet and improved tools allowed for richer media, interaction, and dynamic content.
       </p>
 
       <p>
-        Designers began focusing on usability, branding, and user engagement rather than just functionality.
+        Designers began to shift their focus toward usability, branding, and engagement. Websites were no longer just static pages—they became interactive environments.
       </p>
 
       <p>
-        This marks the turning point where design started prioritizing people instead of systems.
+        This era represents the moment where design began prioritizing people instead of systems.
       </p>
 
       <p class="transition">
@@ -113,18 +113,18 @@
 <section id="modern" class="section">
   <div class="split">
     <div class="text">
-      <h2>Modern Web Design (2010s–Present)</h2>
+      <h2>Exhibit III — Modern Web Design (2010s–Present)</h2>
 
       <p>
         Modern web design emphasizes simplicity, responsiveness, and accessibility. Websites are now designed to work seamlessly across all devices.
       </p>
 
       <p>
-        Design systems and frameworks ensure consistency, scalability, and efficiency.
+        Design systems and frameworks have introduced consistency and scalability, allowing teams to create cohesive digital experiences.
       </p>
 
       <p>
-        This shows that user experience is now the central focus of web design, driven by both technology and human behavior.
+        In this stage, user experience becomes the central focus—shaped by both technological capability and human behavior.
       </p>
 
       <p class="transition">
@@ -142,22 +142,22 @@
   </div>
 </section>
 
-<!-- FUTURE (NEW SECTION) -->
+<!-- FUTURE -->
 <section class="section light">
   <div class="content">
     <h2>Future of Web Design</h2>
 
     <p>
-      As technology continues to evolve, web design is moving toward more personalized, AI-driven experiences. Interfaces are becoming smarter, faster, and more adaptive to user behavior.
+      As technology continues to evolve, web design is moving toward more personalized and intelligent experiences. Interfaces are becoming adaptive, learning from user behavior in real time.
     </p>
 
     <p>
-      The future of web design will likely focus on automation, accessibility, and immersive experiences, including AI-powered interfaces and interactive environments.
+      The future of web design will likely focus on automation, accessibility, and immersive environments—where AI plays a significant role in shaping interaction.
     </p>
   </div>
 </section>
 
-<!-- CONCLUSION -->
+<!-- WHY IT MATTERS -->
 <section class="section">
   <div class="content">
     <h2>Why It Matters</h2>
@@ -167,7 +167,7 @@
     </p>
 
     <p>
-      Understanding its evolution helps us design better digital experiences in the future.
+      Understanding this evolution allows us to design more effective, meaningful, and human-centered digital experiences in the future.
     </p>
   </div>
 </section>
@@ -177,36 +177,32 @@
   Digital Museum Project — IS117
 </footer>
 
-</body>
-</html>
-
 <script>
   const nav = document.querySelector(".nav");
   const aboutSection = document.querySelector("#about");
 
+  let lastScrollY = window.scrollY;
+
   window.addEventListener("scroll", () => {
+    const currentScrollY = window.scrollY;
     const sectionTop = aboutSection.offsetTop;
 
-    if (window.scrollY >= sectionTop - 60) {
+    // 🔹 COLOR CHANGE (same as before)
+    if (currentScrollY >= sectionTop - 60) {
       nav.classList.add("scrolled");
     } else {
       nav.classList.remove("scrolled");
     }
-  });
-</script>
 
-<script>
-  const sections = document.querySelectorAll(".section");
+    // 🔹 HIDE / SHOW NAV
+    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      // scrolling down
+      nav.classList.add("hide");
+    } else {
+      // scrolling up
+      nav.classList.remove("hide");
+    }
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      }
-    });
-  });
-
-  sections.forEach(section => {
-    observer.observe(section);
+    lastScrollY = currentScrollY;
   });
 </script>
