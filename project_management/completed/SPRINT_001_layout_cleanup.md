@@ -1,69 +1,89 @@
-SPRINT 001 — Layout Cleanup
+# SPRINT 001 — Layout Cleanup & Museum Refinement
 
-Goal
+## Goal
+Refine the existing site into a structured, visually coherent museum experience aligned with Swiss Minimal design and a guided narrative.
 
-Align layout to Swiss Minimal grid and spacing rules.
+---
 
-Scope (IN)
+## Scope (IN)
 
-- Center container max-width 900px
+### Layout & Design
+- Center container and improve grid alignment  
+- Standardize vertical spacing (16 / 24 / 32px)  
+- Reduce heavy shadows and normalize border radius  
+- Improve hero section sizing and balance  
+- Ensure consistent typography hierarchy  
 
-- Standardize vertical spacing (16/24/32px)
+### Museum Experience Improvements
+- Strengthen narrative flow across sections  
+- Improve section transitions and readability  
+- Add clear “guided experience” structure  
+- Refine content clarity and educational tone  
 
-- Remove heavy shadows
+### Interaction & UX
+- Implement scroll-based navbar color change  
+- Improve visual consistency across sections  
+- Enhance image presentation and balance  
 
-- Normalize border radius
+---
 
-- Clean hero spacing
+## Scope (OUT)
 
+- No multi-page conversion  
+- No frameworks or external libraries  
+- No advanced animations  
+- No major redesign of site concept  
 
-Scope (OUT)
+---
 
-- No new sections
+## Files Touched
 
-- No color changes
+- styles.css  
+- index.html  
 
-- No typography changes yet
+---
 
-- No content edits
+## Acceptance Criteria
 
+### Visual
+- All content aligned to a central grid  
+- Consistent spacing throughout the site  
+- Clean, minimal layout with no visual clutter  
+- Clear typographic hierarchy  
 
-Files to Touch
+### Structural
+- Single-page layout maintained  
+- Sections follow a logical narrative flow  
+- No disconnected or redundant content  
 
-- styles.css
+### Functional
+- Navigation works correctly  
+- Links function properly  
+- No layout breaking or overflow issues  
 
-- index.html (only if needed for wrapper classes)
+---
 
+## Verification Checklist
 
-Acceptance Criteria
+- Layout appears centered and consistent  
+- Spacing follows a clear system  
+- Sections transition smoothly  
+- Navbar changes correctly on scroll  
+- Site works across screen sizes  
 
-- All content is centered
+---
 
-- No random margins
+## Completion Evidence
 
-- Consistent vertical 
+- Deployed URL: https://ac2928.github.io/is117-museum-project/  
+- Verified: layout loads correctly, navigation works, content is readable and structured  
 
-- Shadows removed or reduced
-
-- Site still functions
-
-
-Verification Checklist
-
-- Screenshot shows clean alignment
-
-- No overflow 
-
-- Interactive button still works
-
-
-Completion Evidence
-
-- Deployed URL: https://yourusername.github.io/is117first/
-
-- Verified: layout loads, button works, links functional
+---
 
 ## Final Adjustments
-- Adjusted hero sizing and spacing
-- Implemented scroll-based navbar color change
-- Expanded content with additional sections for stronger narrative flow
+
+- Adjusted hero sizing and spacing for better visual balance  
+- Implemented scroll-based navbar color change  
+- Improved section spacing and alignment  
+- Refined content to support a guided museum experience  
+- Strengthened narrative clarity across all sections  
