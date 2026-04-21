@@ -177,32 +177,37 @@
   Digital Museum Project — IS117
 </footer>
 
+<!-- SCRIPTS -->
 <script>
   const nav = document.querySelector(".nav");
   const aboutSection = document.querySelector("#about");
 
-  let lastScrollY = window.scrollY;
-
   window.addEventListener("scroll", () => {
-    const currentScrollY = window.scrollY;
     const sectionTop = aboutSection.offsetTop;
 
-    // 🔹 COLOR CHANGE (same as before)
-    if (currentScrollY >= sectionTop - 60) {
+    if (window.scrollY >= sectionTop - 60) {
       nav.classList.add("scrolled");
     } else {
       nav.classList.remove("scrolled");
     }
-
-    // 🔹 HIDE / SHOW NAV
-    if (currentScrollY > lastScrollY && currentScrollY > 100) {
-      // scrolling down
-      nav.classList.add("hide");
-    } else {
-      // scrolling up
-      nav.classList.remove("hide");
-    }
-
-    lastScrollY = currentScrollY;
   });
 </script>
+
+<script>
+  const sections = document.querySelectorAll(".section");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+</script>
+
+</body>
+</html>

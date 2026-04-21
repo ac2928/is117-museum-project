@@ -171,12 +171,3 @@ html {
 .links a:hover {
   text-decoration: underline;
 }
-
-.nav {
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-/* hidden state */
-.nav.hide {
-  transform: translateY(-100%);
-}
